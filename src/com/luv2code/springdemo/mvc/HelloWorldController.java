@@ -21,7 +21,7 @@ public class HelloWorldController {
 	@RequestMapping("/processForm")
 	public String processForm() {
 		return "helloworld";
-	} 
+	}
 	
 //	need a controller method to read form data and 
 //	add data to the model
