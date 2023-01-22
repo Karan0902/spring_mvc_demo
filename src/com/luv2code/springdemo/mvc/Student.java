@@ -1,6 +1,8 @@
 package com.luv2code.springdemo.mvc;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 
 public class Student {
 	
@@ -10,6 +12,7 @@ public class Student {
 	
 	private LinkedHashMap<String, String> countryOptions;
 	private String favouriteLanguage;
+	private List<String> operatingSystems;
 	
 	public Student() {
 		
@@ -20,6 +23,7 @@ public class Student {
 		countryOptions.put("DE", "Germany");
 		countryOptions.put("IN", "India");
 		countryOptions.put("US", "United States of America");
+		operatingSystems = new ArrayList<>();
 	}
 
 	public String getFirstName() {
@@ -56,6 +60,14 @@ public class Student {
 
 	public void setFavouriteLanguage(String favouriteLanguage) {
 		this.favouriteLanguage = favouriteLanguage;
+	}
+
+	public List<String> getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(List<String> operatingSystems) {
+		this.operatingSystems = operatingSystems;
 	}
 
 	
