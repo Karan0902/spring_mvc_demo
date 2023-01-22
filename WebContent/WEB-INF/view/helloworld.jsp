@@ -5,6 +5,9 @@
 		<br>
 		<br>
 		
-		Student Name: ${param.studentName }
+		Student Name: ${ param.studentName }
+		<br><br>
+		
+		The message: ${ message }
 	</body>
 </html>
