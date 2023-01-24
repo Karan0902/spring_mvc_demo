@@ -14,8 +14,6 @@ public class StudentController {
 		
 //		create a new student object
 		Student theStudent = new Student();
-		theStudent.setFirstName("");
-		theStudent.setLastName("");
 		
 //		add student obect as model attribute
 		theModel.addAttribute("student", theStudent);
