@@ -13,5 +13,9 @@
 		<br><br>
 		
 		The postal code is: ${ customer.postalCode }
+		<br><br>
+		
+		The course code code is: ${ customer.courseCode }
+		<br><br>
 	</body>
 </html>
